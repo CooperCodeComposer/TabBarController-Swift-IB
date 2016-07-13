@@ -11,7 +11,7 @@ import WebKit
 
 class WebSiteViewController: UIViewController, WKNavigationDelegate {
 
-    var webView: WKWebView!  //NOTE: When you set a delegate you need to conform to the protocol
+    var webView: WKWebView!  
     var progressView: UIProgressView!
     
     override func loadView() {
